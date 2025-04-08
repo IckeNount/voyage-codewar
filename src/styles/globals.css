@@ -1,0 +1,13 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200 text-white;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
